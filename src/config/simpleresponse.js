@@ -1,8 +1,3 @@
-// import { GoogleGenerativeAI } from "@google/generative-ai";
-
-// const MODEL_NAME = "gemini-1.0-pro";
-// const API_KEY = "AIzaSyDF7iVgGWCF6qAlhsbgIpWUKDkNMzOrBa8";
-
 async function runChat(prompt) {
   if (prompt.toLowerCase() == "hi") {
     const response = "Hello,How are you?";
